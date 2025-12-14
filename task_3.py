@@ -8,7 +8,8 @@ world_champions = {
 
 world_champions.update({2022: 'Аргентина'})
 
-print(world_champions)
+for key, value in world_champions.items():
+    print(f'{key} - {value}')
 
 country = 'Италия'
 
